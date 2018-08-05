@@ -1,0 +1,61 @@
+.banner  {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-color: #183d2c;
+	// background: linear-gradient(92deg, rgb(39, 78, 63), rgba(24, 75, 3, 0) 70.71%);
+	position: absolute;
+ 	top: 0; right: 0; bottom: 0; left: 0;
+ 	display: flex;
+}
+
+.banner-content {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	height: 100vh;
+	width: 100%;
+	h1 {
+		font-size: 100px;
+	}
+	h2 {
+		font-size: 23px;
+		margin-top: none;
+	}
+}
+
+.banner img {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+}
+.title {
+    margin-bottom: 140px;
+}
+.card-link {
+	background-color: transparent;
+	position: absolute;
+ 	top: 0;
+  	bottom: 0;
+  	right: 0;
+ 	height: 100%;
+ 	width: 100%;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.card-home {
+	background-color: white;
+	height: 225px;
+    border-radius: 10px;
+    color: black;
+}
+
+.image-show {
+	display: flex;
+	flex-direction: column;
+
+}

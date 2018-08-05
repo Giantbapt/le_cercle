@@ -1,0 +1,10 @@
+<div class="container col-xs-12 col-md-offset-3 col-md-6">
+	 <!-- createGames %> -->
+	 <h1>Hello</h1>
+	<% @games.each do |gamen| %>
+		<div class="game">
+		 <%= Participation.where(id: gamen.team_1)%>	
+		 <%= Participation.where(id: gamen.team_2).name %>	
+		</div>
+	<% end  %>
+</div>	

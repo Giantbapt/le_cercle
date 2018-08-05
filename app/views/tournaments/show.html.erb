@@ -1,0 +1,19 @@
+<div class="banner-show">
+	<div class="image-show col-xs-12">
+		<%= image_tag(@tournament.photo) %>	
+	</div>
+	<div>
+		<%= @tournament.name %>
+		<%= @tournament.price_per_team %>
+		<%= @tournament.place %>
+		<%= @tournament.date %>
+		<%= @tournament.number_of_teams %>
+		<%= @tournament.date %>
+		<%#= @tournament.time%>
+	</div>
+	<div class="btn btn-primary">
+		<%= link_to 'S\'inscrire', new_tournament_participation_path(@tournament) %>
+	</div><div class="btn btn-primary">
+		<%= link_to 'Voir games', tournament_games_path(@tournament) %>
+	</div>
+</div>
